@@ -1,0 +1,30 @@
+{
+  "name": "WDI HK 11 Recap",
+  "version": "0.0.1",
+  "authors": [
+    "twahyuni <ti.wahyuni@gmail.com>"
+  ],
+  "description": "product of our brainstorm on what we have learned",
+  "main": "",
+  "keywords": [
+    "d3",
+    "angular",
+    "web",
+    "development"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "material-design-lite": "^1.2.0"
+  }
+}

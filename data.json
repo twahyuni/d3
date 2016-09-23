@@ -1,0 +1,178 @@
+{
+  "name": "WDI",
+  "children": [
+    { "name": "HTML",
+      "children": [
+        { "name": "meta tags" }
+      ]
+    },
+    { "name": "CSS",
+      "children": [
+        { "name": "SASS" }
+      ]
+    },
+    { "name": "Bootstrap" },
+    { "name": "JS" },
+    { "name": "Rails",
+      "children": [
+        {
+          "name": "gems",
+          "children": [
+            { "name": "rails" },
+            { "name": "redis" },
+            { "name": "uglifier" },
+            { "name": "puma" },
+            { "name": "pg" },
+            { "name": "paperclip" },
+            { "name": "aws-sdk-v1" },
+            { "name": "dotenv-rails" },
+            { "name": "jquery-rails" },
+            { "name": "jbuilder" },
+            { "name": "devise_token_auth" },
+            { "name": "omniauth" },
+            { "name": "rack-cors" },
+            { "name": "bower" },
+            { "name": "momentjs-rails" },
+            { "name": "pry-rails" },
+            { "name": "byebug" }
+          ]
+        },
+        {
+          "name": "Action Cable",
+          "children": [
+            { "name": "broadcast" },
+            { "name": "subscriptions" },
+            { "name": "create consumer" }
+          ]
+        },
+        {
+          "name": "Active Model",
+          "children": [
+            {
+              "name": "Attributes Methods",
+              "children": [
+                { "name": "accessor" },
+                { "name": "reader" },
+                { "name": "writer" }
+              ]
+            },
+            { "name": "Validations" }
+          ]
+        },
+        {
+          "name": "Active Record",
+          "children": [
+            {
+              "name": "associations",
+              "children": [
+                { "name": "has one" },
+                { "name": "has many" },
+                { "name": "belongs to" },
+                { "name": "has and belongs to many" }
+              ]
+            },
+            {
+              "name": "migration",
+              "children": [
+                { "name": "add column" },
+                { "name": "change column" },
+                { "name": "remove column" },
+                { "name": "create table" },
+                { "name": "drop table" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    { "name": "Node.js" },
+    { "name": "Database",
+      "children": [
+        { "name": "postgreSQL" },
+        { "name": "noSQL" },
+        { "name": "mongoDB" },
+        { "name": "SQL" }
+      ]
+    },
+    { "name": "Angular.js",
+      "children": [
+          {
+            "name": "Ng Module",
+            "children": [
+              { "name": "ng-init" },
+              { "name": "ng-class" },
+              { "name": "ng-checked" },
+              { "name": "ng-if" },
+              { "name": "ng-repeat" },
+              { "name": "ng-click" },
+              { "name": "ng-controller" },
+              { "name": "ng-app" },
+              { "name": "ng-include" },
+              { "name": "ng-href" },
+              { "name": "ng-src" },
+              { "name": "ng-model" },
+              { "name": "ng-minlength" },
+              { "name": "ng-maxlength" }
+            ]
+          },
+          {
+            "name": "Directives",
+            "children": [
+            { "name": "scope watch" }
+            ]
+          },
+          {
+            "name": "Controllers",
+            "children": [
+            { "name": "scope watch" }
+            ]
+          }
+        ]
+    },
+    { "name": "HTTP",
+      "children": [
+        {
+          "name": "Methods",
+          "children": [
+            { "name": "get" },
+            { "name": "post" },
+            { "name": "put" },
+            { "name": "patch" },
+            { "name": "delete" }
+          ]
+        },
+        {
+          "name": "Messages",
+          "children": [
+            { "name": "1xx - information" },
+            { "name": "2xx - successful",
+              "children": [
+                { "name": "200 ok" },
+                { "name": "201 created" },
+                { "name": "201 accepted" }
+              ]
+            },
+            { "name": "3xx - redirection" },
+            { "name": "4xx - client error",
+              "children": [
+                { "name": "400 bad request" },
+                { "name": "401 unauthorized" },
+                { "name": "403 forbidden" },
+                { "name": "404 not found" }
+              ]
+            },
+            { "name": "5xx - server error",
+              "children": [
+                { "name": "500 internal server error" },
+                { "name": "502 bad gateway" },
+                { "name": "503 service unavailable" },
+                { "name": "504 gateway timeout" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    { "name": "Git" }
+  ]
+}
